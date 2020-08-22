@@ -5,7 +5,5 @@ while True:
     if t == "":
         break
     else:
-        s = t.split(" ")
+        s = t.split()
         print(int(s[0]) + int(s[1]))
-
-print(" ds")
