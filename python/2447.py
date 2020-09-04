@@ -1,37 +1,33 @@
-# n = int(input())
-n = 27
-
-li = []
-for i in range(n):
-    li.append(list("*" * n))
+n = int(input())
+l = [['*'] * n for i in range(n)]
 
 
-def make_hole(p, np, nptwo, myList):
-    if p == 1:
+def star(lst, size, offsetx, offsety):
+    if size == 1:
         return
 
-    m = int(p/3)
-    dnp = int(np/3)
-    dnptwo = int(nptwo/3)
+    innerx1 = offsetx + size//3
+    innerx2 = offsetx + 2 * size//3
+    innery1 = offsety + size//3
+    innery2 = offsety + 2 * size//3
 
-    while np+m < n:
-        for i in range(np, np + m):
-            for j in range(nptwo, nptwo + m):
-                myList[i][j] = ' '
-        np += m
+    for i in range(innerx1, innerx2):
+        for j in range(innery1, innery2):
+            lst[i][j] = ' '
 
-    make_hole(m, int(np/3), int(nptwo/3), myList)
+    star(lst, size//3, offsetx, offsety)
+    star(lst, size//3, innerx1, offsety)
+    star(lst, size//3, innerx2, offsety)
+    star(lst, size//3, offsetx, innery1)
+    star(lst, size//3, innerx1, innery1)
+    star(lst, size//3, innerx2, innery1)
+    star(lst, size//3, offsetx, innery2)
+    star(lst, size//3, innerx1, innery2)
+    star(lst, size//3, innerx2, innery2)
 
 
 
-make_hole(n, int(n/3), int(n/3), li)
+star(l, n, 0, 0)
 
-result = []
-for item in li:
-    string = ""
-    for index in item:
-        string += index
-    result.append(string)
-
-for item in result:
-    print(item)
+for item in l:
+    print(''.join(item))
