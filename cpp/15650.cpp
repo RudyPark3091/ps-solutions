@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int n, m, x;
+int n, m;
 vector<int> a;
 
 void solve(int index, int cnt) {
