@@ -1,4 +1,4 @@
-l = [True] * 10000
+l = []
 
 
 def d(n: int):
@@ -12,20 +12,11 @@ def d(n: int):
         return r
 
 
-def t(index, list):
-    if index > 10000:
-        return
-    else:
-        if d(index) >= 10000:
-            pass
-        else:
-            list[d(index)] = False
-        t(d(index), list)
-
-
 for i in range(1, 10001):
-    t(i, l)
+    l.append(d(i))
 
-for i in range(1, 10000):
-    if l[i]:
-        print(i)
+lst = list(set(range(1, 10001)) - set(l))
+lst.sort()
+
+for item in lst:
+    print(item)
