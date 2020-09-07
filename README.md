@@ -2,7 +2,8 @@
 my personal problem solving solutions
 
 ### boj
-20 09 07 : backtracking 6/8 https://www.acmicpc.net/step/34
+20 09 07 : backtracking 6/8  
+20 09 08 : backtracking 8/8 complete! https://www.acmicpc.net/step/34  
 
 - - -
 ### programmers
