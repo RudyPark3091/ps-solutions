@@ -10,7 +10,8 @@ my personal problem solving solutions
 20 09 12 : math3 11/11 ( complete! ) https://www.acmicpc.net/step/18  
 20 09 13 : dp 2/16  
 20 09 15 : dp 6/16  
-20 09 17 : dp 7/16 https://www.acmicpc.net/step/16  
+20 09 17 : dp 7/16  
+20 09 18 : dp 9/16 https://www.acmicpc.net/step/16  
 
 - - -
 ### programmers
