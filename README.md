@@ -15,7 +15,8 @@ my personal problem solving solutions
 20 09 20 : dp 10/16   
 20 09 29 : dp 11/16   
 20 10 07 : dp 13/16   
-20 10 08 : dp 14/16 https://www.acmicpc.net/step/16   
+20 10 08 : dp 14/16    
+20 10 09 : dp 15/16 https://www.acmicpc.net/step/16   
 
 - - -
 ### programmers
