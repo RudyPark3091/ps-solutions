@@ -20,7 +20,7 @@ my personal problem solving solutions
 20 10 11 : greedy 1/4   
 20 10 12 : greedy 2/4   
 20 10 13 : greedy 4/4 ( complete! ) https://www.acmicpc.net/step/33   
-
+20 10 15 : queue 2/7 https://www.acmicpc.net/step/12   
 
 - - -
 ### programmers
