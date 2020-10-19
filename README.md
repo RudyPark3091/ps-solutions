@@ -7,7 +7,7 @@ my personal problem solving solutions
 20 10 09 : dp 16/16 -> https://www.acmicpc.net/step/16   
 20 10 13 : greedy 4/4 -> https://www.acmicpc.net/step/33   
 20 10 18 : queue 7/7 -> https://www.acmicpc.net/step/12   
-20 10 20 : divide and conquer 1/10 -> https://www.acmicpc.net/step/20      
+20 10 20 : divide and conquer 2/10 -> https://www.acmicpc.net/step/20      
 
 - - -
 ### programmers
