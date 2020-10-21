@@ -79,5 +79,5 @@ int main() {
 
 ```
 
-[acmicpc.net/problem/2630]: https://github.com/RudyPark3091/ps-solutions/tree/master/cpp/2630
+[acmicpc.net/problem/2630]: https://www.acmicpc.net/problem/2630
 [월간 코드 챌린지 시즌 1]: https://programmers.co.kr/learn/courses/30/lessons/68936
