@@ -99,5 +99,5 @@ int main() {
 ```
 
 
-[acmicpc.net/problem/1780]: acmicpc.net/problem/1780
-[2630번]: acmicpc.net/problem/2630
+[acmicpc.net/problem/1780]: https://www.acmicpc.net/problem/1780
+[2630번]: https://github.com/RudyPark3091/ps-solutions/tree/master/cpp/2630
