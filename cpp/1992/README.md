@@ -83,5 +83,5 @@ int main() {
 (0)으로 출력하게 하여 제출해 한번에 AC를 받지 못했다.   
 문제의 조건을 잘 확인하자.   
 
-[acmicpc.net/problem/1992]: [acmicpc.net/problem/1992] 
-[2630번 문제]: [acmicpc.net/problem/2630]
+[acmicpc.net/problem/1992]: [https://www.acmicpc.net/problem/1992] 
+[2630번 문제]: [https://github.com/RudyPark3091/ps-solutions/tree/master/cpp/2630]
