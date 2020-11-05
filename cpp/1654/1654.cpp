@@ -18,7 +18,6 @@ void solve(long long a, long long b) {
 
   while (a <= b) {
     mid = (a + b) / 2;
-    bool flag = false;
     int cnt = 0;
 
     for (int i = 0; i < k; i++) {
