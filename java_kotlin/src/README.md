@@ -1,2 +1,0 @@
-# java
-so lame
