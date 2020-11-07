@@ -8,7 +8,7 @@ my personal problem solving solutions
 20 10 13 : greedy 4/4 -> https://www.acmicpc.net/step/33   
 20 10 18 : queue 7/7 -> https://www.acmicpc.net/step/12   
 20 10 30 : divide and conquer 10/10 -> https://www.acmicpc.net/step/20      
-20 11 07 : binary search 5/7 -> https://www.acmicpc.net/step/29
+20 11 08 : binary search 6/7 -> https://www.acmicpc.net/step/29
 
 - - -
 ### programmers
