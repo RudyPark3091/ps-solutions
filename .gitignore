@@ -6,3 +6,4 @@ java_kotlin.iml
 *.exe
 a.out
 *.class
+*.sh
