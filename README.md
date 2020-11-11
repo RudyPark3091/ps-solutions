@@ -9,6 +9,7 @@ my personal problem solving solutions
 20 10 18 : queue 7/7 -> https://www.acmicpc.net/step/12   
 20 10 30 : divide and conquer 10/10 -> https://www.acmicpc.net/step/20      
 20 11 09 : binary search 7/7 -> https://www.acmicpc.net/step/29
+20 11 12 : priority queue 2/4 -> https://www.acmicpc.net/step/13
 
 - - -
 ### programmers
