@@ -7,3 +7,4 @@ java_kotlin.iml
 a.out
 *.class
 *.sh
+*.jar

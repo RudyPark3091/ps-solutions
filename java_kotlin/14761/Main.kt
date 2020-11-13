@@ -1,8 +1,13 @@
-fun fizzbuzz(i: Int, x: Int, y: Int): String = when {
-  i % x == 0 -> "Fizz";
-  i % y == 0 -> "Buzz";
-  i % (x * y) == 0 -> "FizzBuzz";
-  else -> "$i";
+fun fizzbuzz(i: Int, x: Int, y: Int): String {
+  var ret: String = "";
+  if (i % x == 0)
+    ret += "Fizz";
+  if (i % y == 0)
+    ret += "Buzz";
+  if (i % x != 0 && i % y != 0)
+    ret = "$i";
+
+  return ret;
 }
 
 fun main(args: Array<String>) {
