@@ -10,7 +10,7 @@ my personal problem solving solutions
 20 10 30 : divide and conquer 10/10 -> https://www.acmicpc.net/step/20   
 20 11 09 : binary search 7/7 -> https://www.acmicpc.net/step/29   
 20 11 14 : priority queue 4/4 -> https://www.acmicpc.net/step/13   
-20 11 14 : dynamic programming2 2/6 -> https://www.acmicpc.net/step/17   
+20 11 19 : dynamic programming2 3/6 -> https://www.acmicpc.net/step/17   
 
 - - -
 ### programmers
