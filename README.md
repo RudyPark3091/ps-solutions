@@ -10,9 +10,10 @@ my personal problem solving solutions
 20 10 30 : divide and conquer 10/10 -> https://www.acmicpc.net/step/20   
 20 11 09 : binary search 7/7 -> https://www.acmicpc.net/step/29   
 20 11 14 : priority queue 4/4 -> https://www.acmicpc.net/step/13   
-20 11 26 : dynamic programming2 5/6 -> https://www.acmicpc.net/step/17   
+20 11 30 : dynamic programming2 6/6 -> https://www.acmicpc.net/step/17   
 
 - - -
 ### programmers
 https://programmers.co.kr/learn/challenges  
 20 09 07 : hash 3/4
+20 11 30 : queue & stack 1/4
