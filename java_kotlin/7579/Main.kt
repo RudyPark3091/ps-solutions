@@ -15,10 +15,12 @@ fun main(args: Array<String>) {
 		}
 	}
 
-	for (i in 0..sum-1) {
-		if (dp[i] >= m) {
-			println(i);
-			return;
+	var i: Int = 0;
+	while (true) {
+		i += 1;
+		if (i > sum-1 || dp[i] >= m) {
+			break;
 		}
 	}
+	println(i);
 }

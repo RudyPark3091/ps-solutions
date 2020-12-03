@@ -53,12 +53,9 @@ void solve() {
 		}
 	}
 
-	for (int i = 1; i < sum; i++) {
-		if (dp[i] >= m) {
-			cout << i << '\n';
-			return;
-		}
-	}
+	int i;
+	for (i = 1; i < sum && dp[i] < m; i++);
+	cout << i << '\n';
 }
 
 int main() {
