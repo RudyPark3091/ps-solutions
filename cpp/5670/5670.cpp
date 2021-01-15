@@ -52,8 +52,8 @@ struct trie {
 };
 
 int main() {
-	/* cin.tie(nullptr); */
-	/* ios_base::sync_with_stdio(false); */
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
 
 	while (cin >> n) {
 		trie* t = new trie();
