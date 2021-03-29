@@ -1,18 +1,21 @@
 #include <iostream>
 #include <vector>
+#define MAX 100001
 using namespace std;
 
-int n;
-bool visited[10001] = { false };
-vector<pair<int, int>> graph[10001];
+int v;
+bool visited[MAX] = { false };
+vector<pair<int, int>> graph[MAX];
 
 void input() {
 	int x, y, z;
-	cin >> n;
-	for (int i = 0; i < n - 1; i++) {
-		cin >> x >> y >> z;
-		graph[x].push_back({y, z});
-		graph[y].push_back({x, z});
+	cin >> v;
+	for (int i = 0; i < v; i++) {
+		cin >> x;
+		while (cin >> y, y != -1) {
+			cin >> z;
+			graph[x].push_back({y, z});
+		}
 	}
 }
 
@@ -30,12 +33,12 @@ pair<int, int> dfs(int start, int depth) {
 			_max = get_max(_max, dfs(child.first, depth + child.second));
 		}
 	}
-	return {_max.first, _max.second};
+	return _max;
 }
 
 void solve() {
 	pair<int, int> point = dfs(1, 0);
-	fill(visited, visited + 10001, false);
+	fill(visited, visited + MAX, false);
 
 	cout << dfs(point.first, 0).second << '\n';
 }
