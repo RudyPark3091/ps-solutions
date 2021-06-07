@@ -26,8 +26,9 @@ function solution(n, edge) {
   });
 
   const res = search(n, graph);
+  const max = Math.max(...res.map(p => p[0]));
   return res
-    .filter(pair => pair[0] === Math.max(...res.map(p => p[0])))
+    .filter(pair => pair[0] === max)
     .map(p => p[1] + 1)
     .length;
 }
