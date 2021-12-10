@@ -1,3 +1,5 @@
+const assert = require('assert');
+
 // union-find 기법을 이용한 kruskal 알고리즘으로 풀이
 function solution(n, costs) {
   // cost순으로 오름차순 정렬
@@ -38,3 +40,5 @@ function solution(n, costs) {
   return ans;
 }
 
+const tc = solution(4, [[0,1,1],[0,2,2],[1,2,5],[1,3,1],[2,3,8]])
+assert.equal(tc, 4);
